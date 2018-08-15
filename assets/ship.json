@@ -1,0 +1,82 @@
+{
+    "camera_datas": [
+        {
+            "clear_color": [
+                0.051,
+                0.051,
+                0.051,
+                1.0
+            ],
+            "far_plane": 100.0,
+            "fov": 0.85,
+            "frustum_culling": true,
+            "name": "DefaultCamera",
+            "near_plane": 0.1,
+            "type": "perspective"
+        }
+    ],
+    "camera_ref": "DefaultCamera",
+    "embedded_datas": [
+        "brdf.png",
+        "noise8.png",
+        "smaa_area.png",
+        "smaa_search.png"
+    ],
+    "frame_time": 0.041666666666666664,
+    "gravity": [
+        0.0,
+        0.0,
+        -9.8100004196167
+    ],
+    "groups": [],
+    "lamp_datas": [],
+    "material_datas": [],
+    "name": "Ship.json",
+    "objects": [
+        {
+            "data_ref": "DefaultCamera",
+            "local_only": true,
+            "material_refs": [],
+            "name": "DefaultCamera",
+            "traits": [
+                {
+                    "class_name": "armory.trait.WalkNavigation",
+                    "parameters": [
+                        "true"
+                    ],
+                    "type": "Script"
+                }
+            ],
+            "transform": {
+                "values": [
+                    -0.03219878301024437,
+                    0.7777977585792542,
+                    -0.6276891231536865,
+                    -0.5776886343955994,
+                    -0.9994813203811646,
+                    -0.025057267397642136,
+                    0.020221175625920296,
+                    0.19459037482738495,
+                    -2.3655587710891268e-07,
+                    0.6280146837234497,
+                    0.7782013416290283,
+                    0.7626563906669617,
+                    -0.0,
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            },
+            "type": "camera_object"
+        }
+    ],
+    "speaker_datas": [],
+    "traits": [
+        {
+            "class_name": "armory.trait.internal.DebugConsole",
+            "parameters": [],
+            "type": "Script"
+        }
+    ],
+    "world_datas": []
+}

@@ -1,0 +1,21 @@
+name: quartz
+version: 0.1.0
+
+authors:
+  - Greger Olsson <greger.olsson@redstone.se>
+
+targets:
+  quartz:
+    main: src/quartz.cr
+
+dependencies:
+  crystaledge:
+    github: unn4m3d/crystaledge
+  lib_glfw:
+    github: calebuharrison/LibGLFW    
+  msgpack:
+    github: crystal-community/msgpack-crystal
+
+crystal: 0.25.1
+
+license: MIT
