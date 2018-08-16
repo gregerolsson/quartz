@@ -1,10 +1,17 @@
 require "./quartz/**"
+require "./example/**"
 
-module Quartz
+def create(name : String, trait : Class)
+  puts trait.new(Nil)
 end
 
-io = File.open("./assets/ship.json", "r")
+module Quartz
 
-scene = Quartz::Data::Scene.from_json(io);
+  create "Hello", Data::Camera
 
-p scene
+#  io = File.open("./assets/ship.json", "r")
+#  scene = Data::Scene.from_json(io);
+#  p scene
+
+end
+
